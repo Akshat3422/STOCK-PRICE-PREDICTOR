@@ -29,17 +29,25 @@ An interactive Streamlit web application that predicts stock prices based on **t
 project/
 │
 ├── main.py # Main Streamlit app
+
 ├── preprocess.py # Preprocessing functions
+
 ├── predicting.py # Real-time news + sentiment inference
+
 ├── train_sentiment_analyzer.py # Sentiment model training
+
 ├── train_price_model.py # Price model training
+
 │
 ├── data/
 │ ├── df.pkl # Stock data
+
 │ └── financial_news_dataset.pkl # News + sentiment dataset
 │
 ├── sentiment_model_bundle.pkl # Trained sentiment model 
+
 ├── best_model_bundle.pkl # Trained price model + scalers + features
+
 └── README.md # You're reading this!
 
 
@@ -68,8 +76,8 @@ project/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YourUsername/stock-price-predictor
-cd stock-price-predictor
+git clone https://github.com/Akshat3422/ STOCK-PRICE-PREDICTOR
+cd  STOCK-PRICE-PREDICTOR
 ```
 
 ### 2. Install dependencies
