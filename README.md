@@ -18,7 +18,6 @@ An interactive Streamlit web application that predicts stock prices based on **t
 ## 🧰 Tech Stack
 
 - **Frontend:** Streamlit
-- **Backend:** FastAPI (optional for API version)
 - **ML Libraries:** Scikit-learn, Joblib, Pandas
 - **NLP:** TF-IDF + Classifier
 - **Data:** Yahoo Finance + Financial News APIs
