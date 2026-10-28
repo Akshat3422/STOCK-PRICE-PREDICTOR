@@ -57,12 +57,7 @@ def get_real_time_news(ticker):
 news= get_real_time_news(ticker="RELIANCE.BSE")
 
 
-def predict_news_sentiment(news_list):
-    # Load components
-    sentiment_bundle = joblib.load('sentiment_model_bundle.pkl')
-    tfidf = sentiment_bundle['tfidf']
-    model = sentiment_bundle['model']
-    le = sentiment_bundle['label_encoder']
+
 def predict_news_sentiment(news_text):
     # Load components
     sentiment_bundle = joblib.load('sentiment_model_bundle.pkl')
